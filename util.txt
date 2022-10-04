@@ -1,0 +1,6 @@
+criar migrations
+    npm run typeorm migration:create --  -n CreateProducts
+executa migration
+    npm run typeorm migration:run
+iniciar db
+    docker start postgres
